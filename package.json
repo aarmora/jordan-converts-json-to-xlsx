@@ -1,0 +1,24 @@
+{
+  "name": "jordan-converts-to-xlsx",
+  "version": "1.0.0",
+  "description": "Jordan uses typescript and javascript to convert JSON to xlsx.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "json",
+    "xlsx"
+  ],
+  "author": "Jordan Hansen",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.8",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "json2xls": "^0.1.2"
+  }
+}
